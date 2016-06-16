@@ -1,0 +1,114 @@
+/*
+ *  BaleFire Server Monitor, Version 1.0
+ *  CSS Stylers
+ *  
+ *  (c) Carter Ford
+ */
+
+@font-face {
+    font-family: 'khand';
+    src: url('../fonts/khand.ttf');
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    min-width: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(30,30,30);
+    color: rgb(220,220,220);
+    font-family: sans-serif;
+}
+
+h1#bf {
+    background-color: rgb(50,50,50);
+    font-family: 'khand', sans-serif;
+    font-size: 25px;
+    
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+    color: rgb(220,220,220);
+}
+
+nav#navbar {
+    min-height: 94%;
+    width: 100px;
+    float: left;
+    display: inline;
+    margin: 0 30px 0 0;
+    text-align: center;
+    background-color: rgb(50,50,50);
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px 0 20px 0;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    color: rgb(220,220,220);
+    cursor: default;
+    text-align: center;
+}
+
+nav ul li:hover {
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    color: rgb(100,100,100);
+}
+
+div#content {
+    position: relative;
+    max-width: 100%;
+    /*left: 10px;*/
+    z-index: -100
+}
+
+div#content header:first-of-type {
+    height: 50px;
+    line-height: 50px;
+    min-width: 100%;
+    text-align: center;
+    background-color: rgb(40,40,40);
+
+}
+
+p#center {
+    position: relative;
+    margin-top: 20%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(50,50,50);
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+}
