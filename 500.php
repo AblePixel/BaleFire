@@ -9,13 +9,15 @@
         <h1>BALEFIRE - FATAL ERROR</h1>
     </header>
     <div class='wrapper'>
+        <div class='error'>
         <?php 
         if ((include 'balefire/php/errors.php') == FALSE) { //Theoretically, this should never fail. If it does, something is _REALLY_ broken.
-            echo '<div class=\'error\'>GENERIC FATAL: BaleFire was unable to run, and we were unable to determine why.<br>Please contact your System Administrator for assistance.<br><br><br>[FATAL: ERROR_NOFIND_ERROR_HANDLER]</div>';
+            echo 'GENERIC FATAL: BaleFire was unable to run, and we were unable to determine why.<br>Please contact your System Administrator for assistance.<br><br><br>[FATAL: ERROR_NOFIND_ERROR_HANDLER]';
         } else {
             echo '';
         }
         ?>
+        </div>
     </div>
     <footer>BaleFire Server Monitor - Version 0.00PRE - © 2016 Carter Ford</footer>
     </body>
