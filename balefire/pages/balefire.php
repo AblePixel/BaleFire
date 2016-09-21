@@ -32,6 +32,5 @@
             <p id='center'>Welcome to BaleFire! Click on a tab to get started.</p>
         </div>
         <footer>BaleFire Server Monitor - Version 0.00PRE - &copy; 2016 Carter Ford</footer>
-    <?php require('fuckmeup'); ?>
     </body>
 </html>
