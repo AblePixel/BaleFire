@@ -15,7 +15,7 @@
             echo 'GENERIC FATAL: BaleFire was unable to run, and we were unable to determine why.<br>Please contact your System Administrator for assistance.<br><br><br>[FATAL: ERROR_NOFIND_ERROR_HANDLER]';
         } else {
             include 'balefire/php/errors.php';
-            echo 'GENERIC ERROR.';
+            echo 'NYI! To be handled by errors.php';
         };
         ?>
         </div>
