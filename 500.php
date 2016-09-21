@@ -16,7 +16,7 @@
         } else {
             include 'balefire/php/errors.php';
             echo 'GENERIC ERROR.';
-        }
+        };
         ?>
         </div>
     </div>
