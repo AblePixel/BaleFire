@@ -20,6 +20,6 @@
         ?>
         </div>
     </div>
-    <footer>BaleFire Server Monitor - Version 0.00PRE - © 2016 Carter Ford</footer>
+    <footer><?php require 'balefire/php/versioninfo.php'; balevers();?> - © 2016 Carter Ford</footer>
     </body>
 </html>
