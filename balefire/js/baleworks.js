@@ -13,7 +13,7 @@ $(function() {
     
     function navbarHandler() {
         var $this = $(this);
-        npContainer.load($this.attr('id') + '.html');
+        npContainer.load($this.attr('id') + '.php');
         
         return false; //Inhibit normal behaviour
     }
